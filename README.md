@@ -17,4 +17,4 @@ The process is scripted via package-json, so run
 npm run start [your URI in quotes]
 ```
 
-If you would like to see additional options for loggin the number of redirects or the redirected URIs, see the comments at the top of `Index.js`
+If you would like to see additional options for loggin the number of redirects or the redirected URIs, see the comments at the top of [Index.js](https://github.com/JacobWPeterson/resolveURI/blob/main/index.js)
