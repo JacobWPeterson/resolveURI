@@ -1,8 +1,9 @@
 const axios = require('axios');
 
-/*If you would like to count the number of redirects, uncomment out the following line and lines 13
-If you would also like to track the redirects, uncommment line 20*/
-let redirects = 0;
+// If you would like to count the number of redirects, uncomment out lines 6 & 13
+// If you would like to track the redirects, also uncommment line 20
+
+// let redirects = 0;
 const resolveURI = async (link) => {
   try {
     await axios({

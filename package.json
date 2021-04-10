@@ -1,14 +1,13 @@
 {
   "name": "resolveuri",
   "version": "1.0.0",
-  "description": "Resolve a shortened URI to track its destination",
+  "description": "Resolve a shortened URI to track its path and final destination",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-func index.js resolveURI"
   },
   "keywords": [
-    "URL",
+    "URI",
     "URL",
     "resolve",
     "expand"
