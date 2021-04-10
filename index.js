@@ -1,7 +1,7 @@
 const axios = require('axios');
 
-// If you would like to count the number of redirects, uncomment out lines 6 & 13
-// If you would like to track the redirects, also uncommment line 20
+// If you would like to count the number of redirects, uncomment out lines 6, 13, & 19
+// If you would like to track the redirects, also uncommment line 21
 
 // let redirects = 0;
 const resolveURI = async (link) => {
@@ -16,7 +16,7 @@ const resolveURI = async (link) => {
       console.log('Resolved URI: ', response.config.url)
     });
   } catch (e) {
-    redirects++;
+    // redirects++;
     if (Math.trunc(e.response.status / 100) === 3) {
       // console.log(`Redirect ${redirects}: ${e.response.headers.location}`);
       return resolveURI(e.response.headers.location);
