@@ -6,7 +6,7 @@ Resolve a shortened URI to track its path, number of redirects, and final destin
 ### Getting Started
 This project uses standard npm package structure.
 
-### Install Dependencies
+### Install Dependencies (axios)
 ```bash
 npm install
 ```

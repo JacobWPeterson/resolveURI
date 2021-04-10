@@ -4,6 +4,7 @@
   "description": "Resolve a shortened URI to track its path and final destination",
   "main": "index.js",
   "scripts": {
+    "test": "test/test.js",
     "start": "run-func index.js resolveURI"
   },
   "keywords": [
