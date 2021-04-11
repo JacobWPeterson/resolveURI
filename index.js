@@ -16,13 +16,14 @@ const resolveURI = async (link) => {
       console.log('Resolved URI: ', response.config.url)
     });
   } catch (e) {
-    redirects++;
+    // redirects++;
     if (Math.trunc(e.response.status / 100) === 3) {
       // console.log(`Redirect ${redirects}: ${e.response.headers.location}`);
       return resolveURI(e.response.headers.location);
     }
+    // Handles specific case of LinkedIn returning 999 "error" messages
     if (Math.trunc(e.response.status / 100) === 9) {
-      // console.log('Resolved URI: ', e.response.config.url);
+      console.log('Resolved URI: ', e.response.config.url);
       return;
     }
     throw e;
