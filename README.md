@@ -4,7 +4,7 @@ Resolve a shortened URI to track its path, number of redirects, and final destin
 ## Usage
 
 ### Getting Started
-This project uses standard npm package structure.
+This project uses standard npm package structure. ResolveURI is currently configured to simply log the resolved URI, but can easily be changed to return the resolved URI to a function that calls it.
 
 ### Install Dependencies (axios)
 ```bash
