@@ -22,4 +22,4 @@ If you would like to see additional options for loggin the number of redirects o
 ### Example
 A URI with two redirects
 
-<img src="https://github.com/JacobWPeterson/resolveURI/blob/main/example.png" alt="example with two redirects" width=450px/>
+<img src="https://github.com/JacobWPeterson/resolveURI/blob/main/example.png" alt="example with two redirects" width=360px/>
