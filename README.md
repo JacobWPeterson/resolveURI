@@ -18,3 +18,8 @@ npm run start [your URI in quotes]
 ```
 
 If you would like to see additional options for loggin the number of redirects or the redirected URIs, see the comments at the top of [Index.js](https://github.com/JacobWPeterson/resolveURI/blob/main/index.js)
+
+### Example
+A URI with two redirects
+
+<img src="https://github.com/JacobWPeterson/resolveURI/blob/main/example.png" alt="example with two redirects" width=450px/>
